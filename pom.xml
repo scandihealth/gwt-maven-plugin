@@ -24,14 +24,15 @@
     <artifactId>mojo-parent</artifactId>
     <version>34</version>
   </parent>
-  <artifactId>gwt-maven-plugin</artifactId>
+  <groupId>com.csc.scandihealth</groupId>
+  <artifactId>csc-gwt-maven-plugin</artifactId>
   <version>2.7.0</version>
   <packaging>maven-plugin</packaging>
-  <name>Maven GWT Plugin</name>
+  <name>CSC Maven GWT Plugin</name>
   <description>
     Maven plugin for the Google Web Toolkit.
   </description>
-  <url>http://mojo.codehaus.org/gwt-maven-plugin</url>
+  <url>https://github.com/scandihealth/gwt-maven-plugin</url>
   <inceptionYear>2007</inceptionYear>
   <prerequisites>
     <maven>3</maven>
