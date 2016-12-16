@@ -118,13 +118,7 @@
     <system>buildhive</system>
     <url>https://buildhive.cloudbees.com/job/gwt-maven-plugin/job/gwt-maven-plugin/</url>
   </ciManagement>
-  <distributionManagement>
-      <repository>
-        <id>scandihealth.com</id>
-        <name>scandihealth.com</name>
-        <url>http://repo.maven.scandihealth.com/ext-release-local/</url>
-      </repository>
-  </distributionManagement>
+
   <properties>
     <maven.compiler.source>1.6</maven.compiler.source>
     <maven.compiler.target>1.6</maven.compiler.target>
