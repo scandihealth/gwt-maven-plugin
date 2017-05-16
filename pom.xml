@@ -432,6 +432,19 @@
     </profile>    
   </profiles>
 
+  <distributionManagement>
+    <repository>
+      <id>central</id>
+      <name>libs-release</name>
+      <url>http://172.19.201.133:8081/artifactory/ext-release-local</url>
+    </repository>
+    <!--<snapshotRepository>-->
+      <!--<id>snapshots</id>-->
+      <!--<name>libs-snapshot</name>-->
+      <!--<url>http://172.19.201.133:8081/artifactory/libs-snapshot</url>-->
+    <!--</snapshotRepository>-->
+  </distributionManagement>
+
   <build>
     <resources>
       <resource>
