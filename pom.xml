@@ -136,6 +136,19 @@
     <stagingSiteURL>dav:https://dav.codehaus.org/mojo/${project.artifactId}-${project.version}</stagingSiteURL>
   </properties>
 
+  <distributionManagement>
+    <repository>
+      <id>scandihealth</id>
+      <name>libs-release</name>
+      <url>http://172.19.201.133:8081/artifactory/libs-release</url>
+    </repository>
+    <snapshotRepository>
+      <id>scandihealth</id>
+      <name>libs-snapshot</name>
+      <url>http://172.19.201.133:8081/artifactory/libs-snapshot</url>
+    </snapshotRepository>
+  </distributionManagement>
+
   <dependencies>
     <dependency>
       <groupId>org.apache.maven.plugin-tools</groupId>
